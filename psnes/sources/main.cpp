@@ -68,7 +68,7 @@ int main(int argc, char **argv) {
     // ui
     std::string snes9x_version = "snes9x: ";
     snes9x_version += VERSION;
-    romList = new RomList(ui, snes9x_version, {".zip", ".sfc", ".smc", ".swc", ".fig"});
+    romList = new RomList(ui, snes9x_version, {".zip", ".ZIP", ".sfc", ".SFC", ".smc", ".SMC", ".swc", ".SWC", ".fig", ".FIG"});
     romList->build();
     uiRomList = new UIRomList(ui, romList, ui->getSize());
     uiMenu = new UiMenu(ui);

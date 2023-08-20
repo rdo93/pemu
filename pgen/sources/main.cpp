@@ -82,8 +82,8 @@ int main(int argc, char **argv) {
     // ui
     std::string genesis_version = VERSION;
     romList = new PGENRomList(ui, genesis_version,
-                              {".zip", ".md", ".smd", ".gen", ".bin",
-                               ".mdx", ".sms", ".gg", ".sg", ".68k"});
+                              {".zip", ".ZIP", ".md", ".MD", ".smd", ".SMD", ".gen", ".GEN", ".bin", ".BIN",
+                               ".mdx", ".MDX", ".sms", ".SMS", ".gg", ".GG", ".sg", ".SG", ".68k"});
     romList->build();
     uiRomList = new UIRomList(ui, romList, ui->getSize());
     uiMenu = new UiMenu(ui);
