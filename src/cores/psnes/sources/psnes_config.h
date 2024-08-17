@@ -18,7 +18,7 @@ public:
     }
 
     std::vector<std::string> getCoreSupportedExt() override {
-        return {".zip", ".sfc", ".smc", ".swc", ".fig"};
+        return {".zip", ".ZIP", ".sfc", ".SFC", ".smc", ".SMC", ".swc", ".SWC", ".fig", ".FIG"};
     }
 };
 

@@ -25,7 +25,7 @@ public:
     }
 
     std::vector<std::string> getCoreSupportedExt() override {
-        return {".zip"};
+        return {".zip", ".ZIP"};
     }
 };
 

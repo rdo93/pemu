@@ -16,7 +16,7 @@ public:
     }
 
     std::vector<std::string> getCoreSupportedExt() override {
-        return {".zip", ".nes", ".nez", ".unf", ".unif"};
+        return {".zip", ".ZIP", ".nes", ".NES", ".nez", ".NEZ", ".unf", ".UNF", ".unif", ".UNIF"};
     }
 };
 
